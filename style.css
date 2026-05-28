@@ -19,3 +19,16 @@ li{
 #javascript{
     color: yellow;
 }
+
+button{
+    background-color: rgb(81, 255, 0);
+    padding: 10px 20px; /*Espaço INTERNO*/
+    margin: 10px; /*ESPAÇO EXTERNO*/
+    border-radius: 10px; /*Borda*/
+}
+
+span{
+    font-size: 15px;
+    color: rgb(9, 0, 141);
+}
+
