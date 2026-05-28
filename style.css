@@ -25,10 +25,16 @@ button{
     padding: 10px 20px; /*Espaço INTERNO*/
     margin: 10px; /*ESPAÇO EXTERNO*/
     border-radius: 10px; /*Borda*/
+    max-width: 100px;
 }
 
 span{
     font-size: 15px;
     color: rgb(9, 0, 141);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
 }
 
