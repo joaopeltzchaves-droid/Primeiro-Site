@@ -1,6 +1,10 @@
 body{
     background-color: black;
     color: white;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 li{
@@ -11,9 +15,12 @@ li{
 #html{
     color: orangered;
 }
-
+/* 
+    2° li como aul claro   
+    3° li como amarelo
+*/
 #css{
-    color: rgb(121, 182, 231);
+    color: aqua;
 }
 
 #javascript{
@@ -21,24 +28,31 @@ li{
 }
 
 button{
-    background-color: rgb(81, 255, 0);
-    padding: 10px 20px; /*Espaço INTERNO*/
-    margin: 10px; /*ESPAÇO EXTERNO*/
-    border-radius: 10px; /*Borda*/
+    background-color: rgb(0, 128, 17);
+    padding: 10px 20px;  /* ESPAÇO INTERNO*/
+    margin: 10px; /* ESPAÇO EXTERNO*/
+    border-radius: 10px; /*BORDA*/
     max-width: 100px;
 }
-
+ 
 span{
-    font-size: 15px;
-    color: rgb(9, 0, 141);
+    font-size: 20px;
+    color: black
 }
-
 div{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #acessivel{
-    display: 
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }
 
+hr{
+    width: 50%;
+    color: cyan;
+}
